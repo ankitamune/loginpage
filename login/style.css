@@ -1,0 +1,65 @@
+
+body{
+    margin: 0px;
+    /* padding: 0px; */
+    background: url("https://lh5.googleusercontent.com/-YBpVvAXmrUEDmdehHY4JLm4KsyyZGvuBn93qjLj_aDK8uLO10383RoiRvOm_biike2pplFuMnUbRPRmczHzoi3GZ3U5sYerCPC2Jrx2I4Rr1tqLonwm6uv88WnG2j88SA=w740");
+    background-size: cover;
+    background-position: center;
+    /* /* height: 100%; */
+} 
+
+
+.loginbox{
+    width: 400px;
+    height: 400px;
+    background: #000000b3;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    /* margin: auto;
+    margin-top: 60px; */
+    
+}
+#hedding{
+    padding: 40px;
+    text-align: center;
+    font-family: sans-serif;
+}
+.loginbox input{
+    width: 90%;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    /* margin: auto; */
+}
+
+.loginbox input[type="email"] ,input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+}
+.btn {
+    width: 300px;
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: red;
+    background-color: #000000b3;
+    border-color: red;
+}
+#a1{
+    padding: 40px;
+    margin-top: 50px;
+    color: white;
+    border: none;
+}
+#a2{
+    padding: 40px;
+    color: white;
+    border: none;
+}
